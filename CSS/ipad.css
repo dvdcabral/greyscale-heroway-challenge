@@ -1,0 +1,27 @@
+.ipad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 33em;
+    text-align: center;
+    color: #cdcdcd;
+    font-size: 0.9em;
+    background-image: linear-gradient(#0a0a0a, #464646);
+}
+
+.ipad .title-ipad {
+    width: 100%;
+    font-size: 2em;
+    color: white;
+}
+
+.ipad .text-ipad {
+    width: 50%;
+    margin: 3em;
+}
+
+.img-ipad img {
+width: 50%;
+}

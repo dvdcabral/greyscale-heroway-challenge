@@ -1,0 +1,49 @@
+.mountain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* height: 33em; */
+    text-align: center;
+    color: #cdcdcd;
+    font-size: 0.9em;
+    background-color: white;
+    padding: 10em 0 10em 0;
+}
+
+.mountain .mountain-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mountain .mountain-container .shoreline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+}
+
+.mountain .mountain-container .shoreline-text {
+    text-align: left;
+    border-left: 0.5em solid #64a19d;
+    font-size: 1em;
+}
+
+.mountain .mountain-container .shoreline-text .title-shoreline {
+    padding-left: 1em;
+    font-size: 1.3em;
+    color: black;
+}
+
+.mountain .mountain-container .shoreline-text .text-box {
+    padding-left: 1em;
+}
+
+
+.mountain .mountain-container .shoreline img {
+    width: 36em;
+}

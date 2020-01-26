@@ -1,0 +1,31 @@
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 3em;
+    font-size: 1.4em;
+    color: #cdcdcd;
+}
+
+.title-header {
+    display: inline-block;
+    padding: 0.2em;
+    margin: 0.3em;
+}
+
+.box-links {
+    display: inline-block;
+    padding: 0.3em;
+}
+
+.links {
+    display: inline-block;
+    margin: 0.3em;
+    font-size: 0.5em;
+}
+
+.links a {
+    color: #cdcdcd;
+    text-decoration: none;
+}
