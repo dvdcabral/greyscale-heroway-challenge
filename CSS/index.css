@@ -18,8 +18,7 @@
     padding: 0px;
     font-family: Nunito;
     /* border: red dashed 1px; */
-
-    
+  
 }
 
 body {
@@ -31,4 +30,10 @@ body {
     background-size: cover;
     position: relative;
     background-blend-mode: multiply;
+}
+
+html {
+    /* max-width: 1000px; */
+    
+
 }

@@ -14,6 +14,7 @@
 
 .mountain .mountain-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -23,14 +24,14 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 75%;
 
 }
 
 .mountain .mountain-container .shoreline-text {
     text-align: left;
     border-left: 0.5em solid #64a19d;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .mountain .mountain-container .shoreline-text .title-shoreline {
@@ -40,10 +41,99 @@
 }
 
 .mountain .mountain-container .shoreline-text .text-box {
-    padding-left: 1em;
+    padding-left: 1.4em;
+    font-size: 0.8em;
 }
 
 
 .mountain .mountain-container .shoreline img {
-    width: 36em;
+    width: 100%;
+}
+
+
+
+
+
+.mountain .mountain-container .misty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-top: 2em;
+}
+
+.mountain .mountain-container .misty .misty-line {
+    display: flex;
+    background-color: black;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1.5em;
+
+}
+
+.mountain .mountain-container .misty .misty-line .img-misty {
+    width: 50%;
+}
+
+.mountain .mountain-container .misty .misty-line .text-misty {
+    width: 50%;
+}
+
+.mountain .mountain-container .misty .misty-line .img-misty img {
+    width: 100%;
+}
+
+
+.mountain .mountain-container .misty .misty-line .text-misty .title-misty {
+    padding-left: 1em;
+    font-size: 1.3em;
+    color: white;
+    text-align: left;
+    width: 50%;
+}
+
+.mountain .mountain-container .misty .misty-line .text-misty .text-box-misty {
+    padding: 2em;
+    font-size: 0.8em;
+}
+
+.linha-base-misty {
+    border-bottom: 0.5em solid #64a19d;
+    width: 50%;
+    margin-left: 1.5em;
+}
+
+.linha-base-mountains {
+    border-bottom: 0.5em solid #64a19d;
+    width: 50%;
+    margin-right: 1.5em;
+    align-self: flex-end;
+}
+
+.mountain .mountain-container .misty .misty-line .text-mountains .title-misty {
+    padding-right: 1em;
+    font-size: 1.3em;
+    color: white;
+    align-self: flex-end;
+    width: 50%;
+}
+
+.mountain .mountain-container .misty .misty-line .text-mountains .text-box-misty {
+    padding: 2em;
+    font-size: 0.8em;
+}
+
+.mountain .mountain-container .misty .misty-line .text-mountains {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 50%;
+    text-align: right;
+}
+
+.mountain .mountain-container .misty .misty-line .img-misty img {
+    width: 100%;
 }
