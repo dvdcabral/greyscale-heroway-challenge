@@ -50,10 +50,6 @@
     width: 100%;
 }
 
-
-
-
-
 .mountain .mountain-container .misty {
     display: flex;
     flex-direction: column;
@@ -74,18 +70,12 @@
 
 }
 
-.mountain .mountain-container .misty .misty-line .img-misty {
-    width: 50%;
-}
+/* .mountain .mountain-container .misty .misty-line .img-misty {
+} */
 
 .mountain .mountain-container .misty .misty-line .text-misty {
     width: 50%;
 }
-
-.mountain .mountain-container .misty .misty-line .img-misty img {
-    width: 100%;
-}
-
 
 .mountain .mountain-container .misty .misty-line .text-misty .title-misty {
     padding-left: 1em;
@@ -134,6 +124,6 @@
     text-align: right;
 }
 
-.mountain .mountain-container .misty .misty-line .img-misty img {
-    width: 100%;
+.mountain .mountain-container .misty .misty-line img {
+    width: 50%;
 }
