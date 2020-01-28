@@ -30,19 +30,19 @@
 
 .mountain .mountain-container .shoreline-text {
     text-align: left;
-    border-left: 0.5em solid #64a19d;
-    font-size: 1.5em;
+    border-left: 0.3em solid #64a19d;
+    font-size: 1.4em;
 }
 
 .mountain .mountain-container .shoreline-text .title-shoreline {
     padding-left: 1em;
-    font-size: 1.3em;
+    font-size: 1em;
     color: black;
 }
 
 .mountain .mountain-container .shoreline-text .text-box {
     padding-left: 1.4em;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 
@@ -66,7 +66,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.3em;
 
 }
 
@@ -78,34 +78,34 @@
 }
 
 .mountain .mountain-container .misty .misty-line .text-misty .title-misty {
-    padding-left: 1em;
-    font-size: 1.3em;
+    padding-left: 0.9em;
+    font-size: 1em;
     color: white;
     text-align: left;
     width: 50%;
 }
 
 .mountain .mountain-container .misty .misty-line .text-misty .text-box-misty {
-    padding: 2em;
-    font-size: 0.8em;
+    padding: 1.9em;
+    font-size: 0.6em;
 }
 
 .linha-base-misty {
-    border-bottom: 0.5em solid #64a19d;
+    border-bottom: 0.3em solid #64a19d;
     width: 50%;
-    margin-left: 1.5em;
+    margin-left: 1.2em;
 }
 
 .linha-base-mountains {
-    border-bottom: 0.5em solid #64a19d;
+    border-bottom: 0.3em solid #64a19d;
     width: 50%;
-    margin-right: 1.5em;
+    margin-right: 1.2em;
     align-self: flex-end;
 }
 
 .mountain .mountain-container .misty .misty-line .text-mountains .title-misty {
     padding-right: 1em;
-    font-size: 1.3em;
+    font-size: 1em;
     color: white;
     align-self: flex-end;
     width: 50%;
@@ -113,7 +113,7 @@
 
 .mountain .mountain-container .misty .misty-line .text-mountains .text-box-misty {
     padding: 2em;
-    font-size: 0.8em;
+    font-size: 0.6em;
 }
 
 .mountain .mountain-container .misty .misty-line .text-mountains {

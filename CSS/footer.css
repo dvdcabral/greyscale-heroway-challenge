@@ -5,7 +5,7 @@
     align-items: center;
     width: 100%;
     margin-top: 4em;
-    font-size: 0.8em;
+    font-size: 0.75em;
 }
 
 .box-footer {
@@ -76,5 +76,5 @@
 }
 
 .copy {
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
